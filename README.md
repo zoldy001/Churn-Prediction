@@ -13,30 +13,29 @@ The project will use these findings to provide recommendations for reducing chur
 ### Overview of Findings
 Churn is highest among **senior citizens** (proportionally), **single customers without dependents** (~35%), and customers on **month-to-month contracts.** Bundled services, particularly entertainment options, and automatic payment methods **significantly reduce churn,** while fiber optic internet users show elevated churn rates requiring investigation. Customers paying via electronic check have the highest churn, and churn is most likely within the first year of tenure, especially for customers in the $70+ monthly charge range. Addressing these specific segments and optimizing service offerings and payment options can directly improve retention.
 
-## Exploratory Data Analysis (EDA)
+## Insights Deep Dive
 
-### Key takeaways:
 
-Demographics:
+### **Customer Demographics**
+* ****Family Status Strongly Influences Retention.**** Customers with partners show a dramatic 15% lower churn rate (20% vs 35%) compared to single customers. This pattern is further reinforced when dependents are present, with similar retention improvements (20% vs 35% churn rate), suggesting family-oriented customers are significantly more stable.
+* **Senior Citizens Present a Critical Retention Challenge.** Despite being a smaller segment of the customer base, senior citizens demonstrate notably higher churn rates proportionally, indicating a potential gap in services or support tailored to this demographic.
+* ****Gender Has No Significant Impact.**** The data shows nearly identical churn patterns across gender categories, with balanced distribution in both churned and retained customers, suggesting gender-specific retention strategies are unnecessary.
 
-- No significant gender bias in churn behavior is observed
-- Senior citizens show a notably higher churn rate proportionally
-- Customers with partners (1) show significantly lower churn rates (~20%) than those without partners (0) (~35%)
-- The churn rate for customers with dependents is approximately 20%, compared to ~35% for those without
   <img src="./img/img_3.png" alt="Local Image" style="width:70%; height:auto;">
 
 
-Numerical Data:
+### **Services and Support**
+* ****Technical Support is a Key Retention Driver.**** Customers with tech support show significantly lower churn rates, particularly when combined with other services, indicating its role as a crucial touchpoint for customer satisfaction and loyalty.
+* **Fiber Optic Service Shows Concerning Patterns.** Despite being a premium offering, fiber optic internet service exhibits higher churn rates than other internet service types, suggesting potential service quality or pricing issues that need investigation.
+* ****Service Bundling Impacts Retention.**** Customers with multiple services, especially those including entertainment options (StreamingTV, StreamingMovies), demonstrate lower churn rates, indicating the effectiveness of service bundling as a retention strategy.
 
-- Distinct Pricing Tiers are visible in the distribution:
-- Non-churning customers (green) show a multi-modal distribution with peaks at 20, 50, and 80
-- There might be a price sensitivity threshold around $70 where churn risk increases significantly
-  <img src="./img/img_1.png" alt="Local Image" style="width:70%; height:auto;">
+### **Pricing and Payment**
+* ****Contract Length is the Strongest Predictor.**** Month-to-month contracts show significantly higher churn rates compared to one-year or two-year contracts, with two-year contracts having the lowest churn rate, demonstrating the importance of longer-term commitments.
+* **Price Sensitivity Threshold at $70.** The density plot reveals a clear threshold around $70 monthly charges where churn risk increases substantially, with customers paying higher amounts showing a pronounced peak in churn rates.
+* ****Payment Method Influences Churn.**** Electronic check payments correlate with notably higher churn rates compared to other payment methods, particularly automatic payment options, suggesting a link between payment convenience and customer retention.
+* **Early Tenure is Critical.** Most customer churn occurs early in the relationship, typically within the first year, indicating the importance of early engagement and satisfaction in establishing long-term customer relationships.
 
-
-* Churn decreases with tenure, most costumers churn early
-* Costumers with low monthly charges have low churn regardless of tenure
-  <img src="./img/img_2.png" alt="Local Image" style="width:70%; height:auto;">
+  <img src="./img/sales.png" alt="Local Image" style="width:100%; height:auto;">
 
 ## Model results
 
@@ -62,7 +61,6 @@ The scores indicate strong performance for all models, but XGB Classifier stands
   <img src="./img/img_4.png" alt="Local Image" style="width:70%; height:auto;">
   
 The confusion matrix shows  that the XGBClassifier correctly identifies about 42.93% of churning customers and 41.38% of staying customers, with misclassifications remaining low at approximately 8% for both false positives and false negatives. The ROC curve, with its Area Under Curve (AUC) of 0.93 and steep initial ascent, demonstrates the model's strong ability to distinguish between churning and non-churning customers across different classification thresholds, where a score of 1.0 represents perfect prediction.
-## Conclusion
 
 ### Model Performance
 
@@ -73,7 +71,7 @@ XGBClassifier has shown:
 * Low false positive rate (7.84%) and false negative rate (7.65%), indicating good reliability
 * Confusion matrix with good balance in predictions
 
-### Reccomendations
+## Reccomendations
 
 - **Launch "First Year Success" program offering 20% discount on 2-year contracts for new customers.** Add mandatory support check-ins during first 6 months to catch issues early. Currently 45% of customers churn in year one and 65% remain on month-to-month contracts.
 - **Convert electronic check customers to automatic payments by offering $5 monthly discount.** Target highest-risk segments first based on tenure and service package. Data shows electronic check users have 40% higher churn than other payment methods.
