@@ -75,6 +75,12 @@ XGBClassifier has shown:
 
 ### Reccomendations
 
+- **Launch "First Year Success" program offering 20% discount on 2-year contracts for new customers.** Add mandatory support check-ins during first 6 months to catch issues early. Currently 45% of customers churn in year one and 65% remain on month-to-month contracts.
+- **Convert electronic check customers to automatic payments by offering $5 monthly discount.** Target highest-risk segments first based on tenure and service package. Data shows electronic check users have 40% higher churn than other payment methods.
+- **Develop dedicated "Senior Care" package with priority tech support line and streamlined billing portal.** Include age-specific benefits for 2-year commitments. This addresses the double churn rate among senior citizens compared to other demographics.
+- **Restructure service packages to maintain core offerings under $70 threshold.** Add premium features like tech support and streaming only to higher-tier packages to justify pricing. Analysis reveals sharp retention decline when monthly charges exceed $70.
+- **Make basic tech support standard in all service packages.** Create tiered premium support options for advanced services with focus on proactive monitoring. Tech support subscribers demonstrate 30% better retention rates than non-subscribers.
+
 Churn can effectively be reduced by focusing on these key areas:
 
 1. **Contract & Payment Optimization**
