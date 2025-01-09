@@ -1,8 +1,17 @@
-# Churn-Prediction
+# Churn Prediction
 
-In this project, we will explore and analyze a dataset of telecommunication company's costumers in depth, with the goal of identifying patterns and correlations between various customer attributes and their likelihood of churning.
+Customer churn is a common problem for subscription-based businesses, including telecommunications companies. Predicting which customers are likely to leave can help businesses take steps to improve retention and reduce revenue loss.
 
-Customer churn prediction is a critical business problem faced by companies in many industries, particularly those offering subscription-based services. Identifying customers likely to churn allows businesses to proactively implement retention strategies, improving customer loyalty and boosting long-term profitability.
+This project focuses on analyzing a dataset of customer information to achieve two main objectives:
+	•	Predicting Churn: Build machine learning models (e.g., Logistic Regression, Random Forest, XGBoost) to identify customers at risk of churning.
+	•	Understanding Key Drivers: Examine the relationships between customer attributes and churn to identify the factors that most influence customer behavior.
+
+The project will use these findings to provide recommendations for reducing churn and improving customer retention strategies.
+
+## Executive Summary
+
+## Overview of Findings
+Churn is highest among **senior citizens** (proportionally), **single customers without dependents** (~35%), and customers on **month-to-month contracts.** Bundled services, particularly entertainment options, and automatic payment methods **significantly reduce churn,** while fiber optic internet users show elevated churn rates requiring investigation. Customers paying via electronic check have the highest churn, and churn is most likely within the first year of tenure, especially for customers in the $70+ monthly charge range. Addressing these specific segments and optimizing service offerings and payment options can directly improve retention.
 
 ## Exploratory Data Analysis (EDA)
 
