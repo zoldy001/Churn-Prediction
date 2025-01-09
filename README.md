@@ -10,7 +10,7 @@ The project will use these findings to provide recommendations for reducing chur
 
 ## Executive Summary
 
-## Overview of Findings
+### Overview of Findings
 Churn is highest among **senior citizens** (proportionally), **single customers without dependents** (~35%), and customers on **month-to-month contracts.** Bundled services, particularly entertainment options, and automatic payment methods **significantly reduce churn,** while fiber optic internet users show elevated churn rates requiring investigation. Customers paying via electronic check have the highest churn, and churn is most likely within the first year of tenure, especially for customers in the $70+ monthly charge range. Addressing these specific segments and optimizing service offerings and payment options can directly improve retention.
 
 ## Exploratory Data Analysis (EDA)
