@@ -1,4 +1,4 @@
-# Churn Prediction
+# Customer Retention: Machine Learning and Data Analysis
 
 Customer churn is a common problem for subscription-based businesses, including telecommunications companies. Predicting which customers are likely to leave can help businesses take steps to improve retention and reduce revenue loss.
 
