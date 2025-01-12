@@ -3,8 +3,8 @@
 Customer churn is a common problem for subscription-based businesses, including telecommunications companies. Predicting which customers are likely to leave can help businesses take steps to improve retention and reduce revenue loss.
 
 This project focuses on analyzing a dataset of customer information to achieve two main objectives:
-	•	Predicting Churn: Build machine learning models (e.g., Logistic Regression, Random Forest, XGBoost) to identify customers at risk of churning.
-	•	Understanding Key Drivers: Examine the relationships between customer attributes and churn to identify the factors that most influence customer behavior.
+- **Predicting Churn:** Build machine learning models (e.g., Logistic Regression, Random Forest, XGBoost) to identify customers at risk of churning.
+- **Understanding Key Drivers:** Examine the relationships between customer attributes and churn to identify the factors that most influence customer behavior.
 
 The project will use these findings to provide recommendations for reducing churn and improving customer retention strategies.
 
